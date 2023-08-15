@@ -1,0 +1,12 @@
+version: '3'
+services:
+  pmail:
+    image: ghcr.io/jinnrry/pmail:latest
+    ports:
+      - 8081:80
+    volumes:
+      - $PWD/config:/work/config
+      - $PWD/db:/work/db
+    environment:
+      - TZ=Asia/Shanghai
+    restart: on-failure

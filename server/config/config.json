@@ -6,7 +6,7 @@
   "sslType": "0",
   "SSLPrivateKeyPath": "config/ssl/private.key",
   "SSLPublicKeyPath": "config/ssl/public.crt",
-  "dbDSN": "./pmail.db",
+  "dbDSN": "./db/pmail.db",
   "dbType": "sqlite",
   "weChatPushAppId": "",
   "weChatPushSecret": "",
